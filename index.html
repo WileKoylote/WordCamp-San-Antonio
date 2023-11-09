@@ -282,9 +282,117 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+        
       <div class="modal-body">
-        ...
+        <div class="alert alert-dark alert-warning alert-dismissible fade show" role="alert">
+          <strong>Hurry!</strong> Early Bird registration ends in two days!
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+          
+          <h3 class="mb-4">Basic Info</h3>
+          <form>
+               <div class="form-group">
+                 <label for="Text"><h6>Name:</h6></label>
+                 <input type="text" class="form-control" id="InputName">
+              </div>
+              
+              <div class="form-group">
+                <label for="InputEmail"><h6>Email:</h6></label>
+                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              
+              <div class="form-group">
+                  <label for="FormControlSelect"><h6>Job Role:</h6></label>
+                <select class="form-control" id="FormControlSelect">
+                  <option>Wordpress Developer</option>
+                  <option>Bootstrap Developer</option>
+                  <option>Web Designer</option>
+                  <option>Multimedia Marketer</option>
+                  <option>Data Analyst</option>
+                  <option>AI Developer</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              
+              <hr>
+              <h3 class="mb-4">Which Topics Interest You Most?</h3>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Check1">
+                  <label class="form-check-label" for="Check1">
+                      Wordpress Plugins
+                  </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Check2">
+                  <label class="form-check-label" for="Check2">
+                      PHP
+                  </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Check3">
+                  <label class="form-check-label" for="Check3">
+                      CSS and Javascript
+                  </label>
+              </div>
+              <hr>
+    
+              <h3 class="mb-4">Payment Info</h3>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCN"><h6>Card Number:</h6></label>
+                    <input type="text" class="form-control" id="inputCN">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="inputZC"><h6>Zip Code:</h6></label>
+                    <input type="text" class="form-control" id="inputZC">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="inputCVV"><h6>CVV:</h6></label>
+                    <input type="text" class="form-control" id="inputCVV">
+                </div>
+              </div>
+              
+              <div class="form-row">
+              <div class="form-group col-md-9">
+                <label for="FormControlSelect2"><h6>Expiration Month:</h6></label>
+                <select class="form-control form-control-sm" id="FormControlSelect2">
+                  <option>January-1</option>
+                  <option>Feburary-2</option>
+                  <option>March-3</option>
+                  <option>April-4</option>
+                  <option>May-5</option>
+                  <option>June-6</option>
+                  <option>July-7</option>
+                  <option>August-8</option>
+                  <option>Spetember-9</option>
+                  <option>October-10</option>
+                  <option>November-11</option>
+                  <option>December-12</option>
+                </select>
+              </div>
+              
+              <div class="form-group col-md-3">
+                <label for="FormControlSelect3"><h6>Year:</h6></label>
+                <select class="form-control form-control-sm" id="FormControlSelect3">
+                  <option>2023</option>
+                  <option>2024</option>
+                  <option>2025</option>
+                  <option>2026</option>
+                  <option>2027</option>
+                  <option>2028</option>
+                  <option>2029</option>
+                  <option>2030</option>
+                </select>
+              </div>
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Register</button>
+          </form>
       </div>
+        
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
