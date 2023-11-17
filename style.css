@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.jumbotron {
+background-image: url("sa copy.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.mb-4 {
+background-color: lightgray;
+text-align: center;
+}
+
+
