@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .jumbotron {
-background-image: url("images/sa copy.jpg");
+background-image: url("sa copy.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -12,4 +12,27 @@ background-color: lightgray;
 text-align: center;
 }
 
+$primary-color: #333;
+$font-stack: sans-serif;
+$font-size: 100%;
 
+body {
+color: $primary-color;
+font: $font-stack; 
+font-size: $font-size;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
